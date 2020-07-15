@@ -45,18 +45,5 @@ public:
 
 int main()
 {
-    int v,e;
-    cout << "Enter vertex and edges : ";
-    cin >> v >> e;
-    Graph g(v);
-    int src,dest;
-    for(int i=0;i<e;i++)
-    {
-        cin >> src >> dest ;
-        g.addEdge(src,dest);
-    }
-    if(g.DetectCycle())
-      cout << "Cycle Exists in undirected graph" << endl;
-    else
-      cout << "Cycle does not exist in undirected graph" << endl;
+    
 }
